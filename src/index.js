@@ -4,10 +4,12 @@ import "./index.css";
 import App from "./App";
 import Contact from "./Contact";
 import Login from "./Login";
-import Fashion from "./Fashion";
+import Profile from "./Profile";
 import About from "./About";
+import Outfit from "./outfit";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./common.css"; // Import your CSS file here
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,8 +20,9 @@ root.render(
       <Route path="/" element={<App />} /> {/* Home route */}
       <Route path="/login" element={<Login />} />
       <Route path="/about" element={<About />} />
-      <Route path="/fashion" element={<Fashion />} />
+      <Route path="/profile" element={<Profile />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/outfit" element={<Outfit />} />
       {/* Add more routes as needed */}
     </Routes>
   </BrowserRouter>

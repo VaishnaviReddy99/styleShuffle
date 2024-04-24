@@ -1,0 +1,91 @@
+form {
+    margin: 2rem auto 0;
+    width: 24rem;
+
+    h2{
+        padding: 1%;
+        padding-bottom: 20px;
+        margin-top: 0;
+    }
+  
+    div {
+      width: inherit;
+      margin-bottom: 1rem;
+    }
+  
+    label {
+      display: block;
+      color: #080808;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+    }
+  
+    input {
+      margin: 0.5rem 0;
+      padding: 0 0.5rem;
+      width: inherit;
+      height: 2rem;
+      border: none;
+      border-radius: 4px;
+      box-sizing: border-box;
+     
+    }
+  
+    input[type="submit"] {
+      height: 2.5rem;
+      font-size: 1rem;
+      color: #fff;
+      background: #0E46A3;
+      cursor: pointer;
+    }
+  
+   
+  }
+
+  .surprise-button {
+    background-color: rgb(223, 223, 114); /* Set background color to yellow */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-weight: bold;
+    color: black; /* Set text color to black for better contrast */
+    transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+    width: 100%;
+  }
+  
+  .surprise-button:hover {
+    background-color: gold; /* Slightly darker yellow on hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+  }
+
+  .home-page{
+
+    width: 45vw; /* Adjust width as needed */
+    height: 70vh; /* Adjust height as needed */
+    background-color: #E1F7F5; /* Background color */
+    position: absolute;
+    top: 50vh;
+    left: 70vw;
+    transform: translate(-50%, -50%);
+    border-radius: 10px; /* Adjust border-radius to make corners smoother */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+    h2{
+        margin-top: 0;
+        padding: 1%;
+        background-color: #9AC8CD;
+        height: fit-content;
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+}
+
+.input-color{
+    margin: 5px;
+}

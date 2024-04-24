@@ -1,0 +1,84 @@
+body {
+    background-image: url('./assets/background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: keeps the background fixed while scrolling */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    
+}
+
+.centered-box {
+    width: 60vw; /* Adjust width as needed */
+    height: 70vh; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Background color */
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px; /* Adjust border-radius to make corners smoother */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin-top: 10vh;
+    display: flex;
+  }
+  
+ 
+  .content-box {
+    background-color: #E1F7F5;
+    padding: 10px;
+    border-radius: 5px;
+    padding: 5%;
+  }
+
+
+
+.left-bottom-image {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 20vw; /* Adjust width as needed */
+    height: 90vh; /* Automatically adjust height according to width */
+}
+
+
+
+#welcome-dialog {
+    position: fixed;
+    top: 25vh;  /* 10% from the top of the viewport */
+    left: 30vw;  /* 15% from the left of the viewport */
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;  /* Add some rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect */
+    display: none;
+    transition: all 0.3s ease-in-out;  /* Smooth transition for show/hide */
+    z-index: 100;  /* Ensure dialog is on top of other content */
+
+  }
+
+  .close-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1.2em;  /* Adjust font size as needed */
+    font-weight: bold;
+    color: #333;  /* Adjust color as needed */
+    position: absolute; /* Absolute positioning within the button */
+    top: 10%;  /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+  }
+  
+  #welcome-dialog.show {
+    display: block;
+  }

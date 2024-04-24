@@ -1,0 +1,66 @@
+.image-container {
+    position: relative; /* Enable positioning for buttons */
+    display: inline-block; /* Allow elements to wrap around */
+    h2{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+      align-items: center;
+    justify-content: center;
+
+  }
+  
+  .image-container img {
+    align-items: center;
+    justify-content: center;
+    width: 30vw; /* Adjust width as needed */
+    height: 60vh; /* Adjust height as needed */
+    margin: 2px;
+  }
+  
+
+  .buttons-container {
+    display: block; /* Maintain horizontal arrangement within buttons */
+    float: right;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    padding-left:10px;
+  }
+
+  .outfit-container {
+    width: 60vw; /* Adjust width as needed */
+    height: 75vh; /* Adjust height as needed */
+    background-color: #E1F7F5; /* Background color */
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 60vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px; /* Adjust border-radius to make corners smoother */
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    
+}
+  
+
+.buttons-container AiFillLike{
+    cursor: pointer; /* Indicate interactive elements */
+    margin: 5px; /* Add some spacing between icons */
+    color: aquamarine;
+    
+}
+.buttons-container AiFillDislike {
+  cursor: pointer; /* Indicate interactive elements */
+  margin: 5px; /* Add some spacing between icons */
+  color: black;
+}
+
+.buttons-container AiFillLike:hover,
+.buttons-container AiFillDislike:hover {
+  opacity: 0.8; /* Slightly reduce opacity on hover for visual feedback */
+}
+  
+  

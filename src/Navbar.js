@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="navbar-center">
         <ul className="nav-links">
           <li>
-            <a href="/products">Sign In</a>
+            <a href="/login">Sign In</a>
           </li>
           <li>
             <a href="/about">Home</a>
@@ -21,18 +21,9 @@ const Navbar = () => {
             <a href="/contact">Contact</a>
           </li>
           <li>
-            <a href="/contact">Account</a>
+            <a href="/profile">Account</a>
           </li>
         </ul>
-      </div>
-      <div className="navbar-right">
-        <a href="/cart" className="cart-icon">
-          <i className="fas fa-shopping-cart"></i>
-          <span className="cart-count">0</span>
-        </a>
-        <a href="/account" className="user-icon">
-          <i className="fas fa-user"></i>
-        </a>
       </div>
     </nav>
   );

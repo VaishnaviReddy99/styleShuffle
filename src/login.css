@@ -1,0 +1,46 @@
+.sigin{
+    
+}
+form {
+    margin: 2rem auto 0;
+    width: 24rem;
+
+    h2{
+        padding: 1%;
+        padding-bottom: 20px;
+        margin-top: 0;
+    }
+  
+    div {
+      width: inherit;
+      margin-bottom: 1rem;
+    }
+  
+    label {
+      display: block;
+      color: #080808;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+    }
+  
+    input {
+      margin: 0.5rem 0;
+      padding: 0 0.5rem;
+      width: inherit;
+      height: 2rem;
+      border: none;
+      border-radius: 4px;
+      box-sizing: border-box;
+     
+    }
+  
+    input[type="submit"] {
+      height: 2.5rem;
+      font-size: 1rem;
+      color: #fff;
+      background: #0971f1;
+      cursor: pointer;
+    }
+  
+   
+  }
