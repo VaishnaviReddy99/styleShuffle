@@ -45,3 +45,27 @@
   .contact-form button:hover {
     background-color: #0E46A3; /* Darker green on hover */
   }
+
+
+  .faq-row-wrapper {
+    .faq-title {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .faq-body {
+        .faq-row {
+            .row-title {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding: 1%;
+            }
+
+            .row-content {
+                .row-content-text {
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+                }
+            }
+        }
+    }
+}

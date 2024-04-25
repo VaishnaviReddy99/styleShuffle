@@ -12,9 +12,6 @@ const Navbar = () => {
       <div className="navbar-center">
         <ul className="nav-links">
           <li>
-            <a href="/login">Sign In</a>
-          </li>
-          <li>
             <a href="/about">Home</a>
           </li>
           <li>

@@ -17,7 +17,7 @@ root.render(
     <Routes>
       {" "}
       {/* Wrap your routes in Routes */}
-      <Route path="/" element={<App />} /> {/* Home route */}
+      <Route path="/" element={<Login />} /> {/* Home route */}
       <Route path="/login" element={<Login />} />
       <Route path="/about" element={<About />} />
       <Route path="/profile" element={<Profile />} />
