@@ -17,7 +17,7 @@ function Outfit() {
         <div className="image-container">
           <h2>Here is your Ourtfit</h2>
           <img
-            src={require("./assets/outfits/summerOutfit.jpg")}
+            src={require("./assets/outfits/blue-jeans-white-sweatshirt.jpg")}
             alt={"simpleImage"}
           />
         </div>

@@ -8,6 +8,7 @@ import redShirt from "./assets/wardrobe/redshirt.jpg";
 import whitesweater from "./assets/wardrobe/white_sweater.webp";
 import WhiteTrouser from "./assets/wardrobe/white_trousers.jpg";
 import blackTshirt from "./assets/wardrobe/black_tshirt.webp";
+import blueJeans from "./assets/wardrobe/blue-denim.jpg";
 import avatar from "./assets/avatar.png";
 
 function Profile() {
@@ -40,6 +41,11 @@ function Profile() {
     },
     {
       src: blackTshirt,
+      width: 320,
+      height: 212,
+    },
+    {
+      src: blueJeans,
       width: 320,
       height: 212,
     },
